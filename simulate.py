@@ -17,4 +17,5 @@ planeId = p.loadURDF("plane.urdf")
 carId = p.loadURDF("./arm.urdf", basePosition=[0,0,0.])
 
 
-time.sleep(10)
+
+input()
