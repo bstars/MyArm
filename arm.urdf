@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="my_arm">
+
+    
+    <!-- Materials -->
+    <material name="blue"> <color rgba="0 0 0.7 0.9"/> </material>
+    <material name="red"> <color rgba="0.7 0 0 0.9"/> </material>
+
+    <!-- ********************** Links ********************** -->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.087 0.09 0.027"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+
+
+</robot>
